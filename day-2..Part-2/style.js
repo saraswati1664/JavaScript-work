@@ -37,22 +37,28 @@ if ("0") {
 
 // loin form
 
-let user = prompt("who's there?", '');
-if(user === 'Saras'){
-  let password=prompt("enter password",'');
-  if(password === 'TheOwner'){
-    alert('Welcome!');
-  }
-  else if (password === '' || password === null){
-    alert('canceled');
-  }
-  else{
-    alert('Wrong password!');
-  }
-}
-else if(user === '' || user === null){
-  alert('canceled!');
-}
-else{
-  alert("i don't know you:)" );
-}
+// let user = prompt("who's there?", '');
+// if(user === 'Saras'){
+//   let password=prompt("enter password",'');
+//   if(password === 'TheOwner'){
+//     alert('Welcome!');
+//   }
+//   else if (password === '' || password === null){
+//     alert('canceled');
+//   }
+//   else{
+//     alert('Wrong password!');
+//   }
+// }
+// else if(user === '' || user === null){
+//   alert('canceled!');
+// }
+// else{
+//   alert("i don't know you:)" );
+// }
+  
+// let a = 25;
+// if(a >= 14 || a<= 90){
+//   console.log(Boolean(a));
+// }
+

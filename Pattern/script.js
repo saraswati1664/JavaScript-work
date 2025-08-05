@@ -1,0 +1,69 @@
+// * * * *
+// * * * *
+// * * * *
+// * * * *
+
+// pattern 3*3 numbers
+let num = 3;
+for(let i = 1;i<=num;i++){
+    for(let j = 1;j<=num;j++){
+        process.stdout.write(j + " ");
+    }
+    console.log();
+}
+console.log();
+// pattern 3*3 stars
+for(let i = 1;i<=num;i++){
+    for(let j = 1;j<=num;j++){
+        process.stdout.write("*" + " ")
+    }
+    console.log();
+}
+console.log();
+// pattern 3*4 num
+for(let i = 1;i<=num;i++){
+    for(let j = 1;j<=num+1;j++){
+        process.stdout.write(j + " ")
+    }
+    console.log();
+}
+console.log();
+// pattern 3*4 stars
+for(let i = 1;i<=num;i++){
+    for(let j = 1;j<=num+1;j++){
+        process.stdout.write("*" + " ")
+    }
+    console.log();
+}
+
+ // pattern 3*3 character
+ let ch = 'A';
+ let no = 3;
+ for(let i = 0; i<no;i++){
+    for(let j=0;j<no;j++){
+        process.stdout.write(ch + " ");
+        ch = String.fromCharCode(ch.charCodeAt(0) + 1);
+    }
+    console.log();
+ }
+
+
+
+
+
+
+
+
+
+
+
+//pattern 3*3
+//          *  
+//        *   *
+//      *   *   *
+// i for row & j for column 
+
+
+
+
+
