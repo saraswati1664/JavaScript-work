@@ -56,22 +56,20 @@ for(let i = 1;i<=num;i++){
     console.log();
  }
 
-
-
-
-
-
-
-
-
-
 //pattern 3*3
 //          *  
 //        *   *
 //      *   *   *
 // i for row & j for column 
-
-
-
+let r=8;
+for(let i = 0;i<r;i++){
+    for(let k = 0; k< (r-i-1); k++){
+        process.stdout.write(" ");
+    }
+    for(let j=0;j<i+1;j++){
+        process.stdout.write(" " + "*");
+    }
+    console.log();
+}
 
 
