@@ -14,11 +14,16 @@
 // }
 // console.log(avg);
 
-// apply 10%offer on items in array-                          do again--
+// apply 10%offer on items in array-                          
 
-// let prices = [250, 645, 300, 900,50];
-// for(let i= 0;i<prices.length;i++){
-// }
+let prices = [250, 645, 300, 900,50];
+console.log(prices);
+
+for(let i= 0;i<prices.length;i++){
+    let offer = prices[i]/10;
+    prices[i]= prices[i]-offer;
+}
+console.log(prices);
 
 
 // companies array --
