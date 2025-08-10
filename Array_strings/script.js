@@ -39,3 +39,6 @@ console.log(companies);
 companies.push("Amazone");
 console.log(companies);
 
+// concat array-
+let added_array = companies.concat(prices);
+console.log(added_array);
