@@ -1,0 +1,25 @@
+1.  Higher order function /Methods- (accept callbacks)
+Functions that accept another functions as an arguments and also return a function as a result.
+example- Array Methods,Event Listeners,Timers etc.
+(callback function- A function passed as an arguments to another function.)
+
+Array Methods:
+
+forEach()-
+
+In javascript, forEach is both loop and a callback function as it can iterate through an array and also need some argumentsto process each element.
+
+map()
+
+filter()
+
+reduce()
+
+find()
+
+some()
+
+every()
+
+sort()
+
