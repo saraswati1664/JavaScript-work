@@ -58,8 +58,10 @@
 // console.log(minimumArr);
 
 //filter array method-
-let marks = [80,90,95,91,20,21,30,45,50,60];
-marks.filter()
+// let marks = [80,90,95,91,20,21,30,45,50,60];
+// marks.filter()
+
+   
 
 
 

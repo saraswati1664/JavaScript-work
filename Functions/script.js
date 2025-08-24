@@ -37,3 +37,5 @@ arr.forEach((val,idx) =>{
     arr=val*val;
     console.log(arr,idx);
 })
+
+ 
