@@ -18,7 +18,7 @@ equal_btn.addEventListener("click",() =>{
 })
 //work on click
 const display = document.querySelector("#input_nums") // imput box
-function AddToDisplay(input){
+function AddToDisplay(input){ 
     display.value += input;
 }
 let popOne = document.querySelector("#singlePop");  // del one element from input
