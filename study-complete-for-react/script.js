@@ -116,3 +116,10 @@
 //   return prev+curr.price
 // },0)
 // console.log(result)
+
+
+// hum kisi ko b array me change kr skte h using Array.from  (ye dom me htmlcollection ya node list ko change krne me help krega)
+
+
+
+
